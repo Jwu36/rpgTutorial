@@ -4,7 +4,11 @@
   "eventList":[],
   "managed":true,
   "name":"obj_enemy2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemyParent/obj_enemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},"propertyId":{"name":"damage","path":"objects/obj_enemyParent/obj_enemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemyParent","path":"objects/obj_enemyParent/obj_enemyParent.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_enemyParent/obj_enemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

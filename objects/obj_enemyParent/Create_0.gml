@@ -13,3 +13,5 @@ wall = layer_tilemap_get_id("Tile_Wall");
 //knock back
 kb_x = 0;
 kb_y = 0;
+
+xp_value = 30;

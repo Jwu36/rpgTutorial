@@ -35,6 +35,7 @@
   },
   "name":"RPG Starter Pack",
   "resources":[
+    {"id":{"name":"font_gui","path":"fonts/font_gui/font_gui.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
