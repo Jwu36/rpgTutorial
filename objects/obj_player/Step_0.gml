@@ -1,3 +1,5 @@
+if (instance_exists(obj_dialog)) exit;
+
 //key check
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
@@ -29,4 +31,14 @@ if keyboard_check_pressed(vk_space){
 	var _inst = instance_create_depth(x,y,depth, obj_attack);
 	_inst.image_angle = point_direction(0,0,_hor, _ver);
 	_inst.damage *= damage;
+}
+
+//create dialog
+if (keyboard_check_pressed(vk_space)) {
+	create_dialog([
+	{
+		name : "Test Dialog!",
+		msg  : "Good!"
+	}
+	])
 }

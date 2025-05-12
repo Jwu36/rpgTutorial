@@ -1,3 +1,5 @@
+if (instance_exists(obj_dialog)) exit;
+
 //set move
 var move_x = clamp(target_x - x, -1, 1);
 var move_y = clamp(target_y - y, -1, 1);
