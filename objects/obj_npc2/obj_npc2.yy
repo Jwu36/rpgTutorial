@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"obj_npc2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npcParent","path":"objects/obj_npcParent/obj_npcParent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npcParent/obj_npcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.room1_end",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npcParent","path":"objects/obj_npcParent/obj_npcParent.yy",},"propertyId":{"name":"final_npc","path":"objects/obj_npcParent/obj_npcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_npc1",
+    "path":"sprites/spr_npc1/spr_npc1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

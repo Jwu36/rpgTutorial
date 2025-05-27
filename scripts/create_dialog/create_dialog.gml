@@ -35,3 +35,10 @@ global.welcome_dialog = [
 	msg  : "That's Nasty..."
 },
 ]
+
+global.room1_end = [
+{
+	name: "Cross",
+	msg : "Let's move to the next stage!"
+},
+]
