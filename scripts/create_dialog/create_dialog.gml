@@ -7,3 +7,31 @@ function create_dialog(_messages){
 	_inst.messages = _messages;
 	_inst.current_message = 0;
 }
+
+global.char_colors = {
+	"Congrats" : c_yellow,
+	"Cross"    : c_yellow,
+	"You"      : c_aqua
+}
+
+global.welcome_dialog = [
+{
+	name : "Cross",
+	msg  : "Welcome to the RPG TUTORIAL!"
+},
+
+{
+	name : "You",
+	msg  : "Thanks!"
+},
+
+{
+	name : "Cross",
+	msg  : "I like Programming!"
+},
+
+{
+	name : "You",
+	msg  : "That's Nasty..."
+},
+]

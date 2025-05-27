@@ -34,6 +34,7 @@ if keyboard_check_pressed(vk_space){
 }
 
 //create dialog
+/*
 if (keyboard_check_pressed(vk_space)) {
 	create_dialog([
 	{
@@ -41,4 +42,4 @@ if (keyboard_check_pressed(vk_space)) {
 		msg  : "Good!"
 	}
 	])
-}
+}*/
