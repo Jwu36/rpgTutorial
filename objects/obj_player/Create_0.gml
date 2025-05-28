@@ -30,9 +30,9 @@ function add_xp(_xp) {
 		
 		create_dialog([
 		{
-			mode : 1,
+			mode : 0,
 			name : "Congrats",
-			msg  : $"You leveled up! Your new stats are: \nLV: {level}\nHP {hp_total}\nDMG {damage}"
+			msg  : $"유 레벨 업! Your new stats are: \nLV: {level}\nHP {hp_total}\nDMG {damage}"
 		}
 		])
 	}

@@ -16,21 +16,25 @@ global.char_colors = {
 
 global.welcome_dialog = [
 {
+	mode : 1,
 	name : "Cross",
 	msg  : "Welcome to the RPG TUTORIAL!"
 },
 
 {
+	mode : 0,
 	name : "You",
 	msg  : "Thanks!"
 },
 
 {
+	mode : 1,
 	name : "Cross",
 	msg  : "I like Programming!"
 },
 
 {
+	mode : 0,
 	name : "You",
 	msg  : "That's Nasty..."
 },
@@ -38,6 +42,7 @@ global.welcome_dialog = [
 
 global.room1_end = [
 {
+	mode : 1,
 	name: "Cross",
 	msg : "Let's move to the next stage!"
 },
